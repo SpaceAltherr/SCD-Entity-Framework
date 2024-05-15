@@ -1,8 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCD.EntityFramework.Development", "SCD.EntityFramework.Development\SCD.EntityFramework.Development.csproj", "{520E9EEF-6711-46BE-918A-B17AF11C4E8F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCD.EntityFramework.Development", "samples\SCD.EntityFramework.Development\SCD.EntityFramework.Development.csproj", "{520E9EEF-6711-46BE-918A-B17AF11C4E8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCD.EntityFramework.Type2", "SCD.EntityFramework.Type2\SCD.EntityFramework.Type2.csproj", "{E4F6A395-DFC0-4F6D-844A-8072BCAA9280}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCD.EntityFramework.Type2", "src\SCD.EntityFramework.Type2\SCD.EntityFramework.Type2.csproj", "{E4F6A395-DFC0-4F6D-844A-8072BCAA9280}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C04819D9-B9F8-47D1-9AA3-F01E298093F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{12F4FD6C-07A5-49B2-8B9A-02C0846FCD65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +22,9 @@ Global
 		{E4F6A395-DFC0-4F6D-844A-8072BCAA9280}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4F6A395-DFC0-4F6D-844A-8072BCAA9280}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4F6A395-DFC0-4F6D-844A-8072BCAA9280}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E4F6A395-DFC0-4F6D-844A-8072BCAA9280} = {C04819D9-B9F8-47D1-9AA3-F01E298093F8}
+		{520E9EEF-6711-46BE-918A-B17AF11C4E8F} = {12F4FD6C-07A5-49B2-8B9A-02C0846FCD65}
 	EndGlobalSection
 EndGlobal
