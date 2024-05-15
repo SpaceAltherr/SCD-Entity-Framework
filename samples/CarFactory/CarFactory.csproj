@@ -13,4 +13,8 @@
       <PackageReference Include="MongoDB.EntityFrameworkCore" Version="8.0.1" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\..\src\SCD.EntityFramework.Type2\SCD.EntityFramework.Type2.csproj" />
+    </ItemGroup>
+
 </Project>
